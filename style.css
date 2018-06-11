@@ -1,0 +1,1267 @@
+/* ------------------------------ GENERAL -------------------------------- */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#bodycontainer {
+    height: 3000px;
+    width: 1661px;
+    overflow: hidden;
+}
+
+#newyorkpic {
+    position: absolute;
+    margin-top: 718px;
+    margin-left: -360px;
+    height: 600px;
+}
+
+#newyorkheading {
+    position: absolute;
+    margin-top: 769px;
+    margin-left: 40px;
+    font-size: 35px;
+    color: rgb(50,205,50);
+}
+
+#sanfranpic {
+    position: absolute;
+    margin-top: 720px;
+    margin-left: 940px;
+    height: 600px;
+}
+
+#sanfranheading {
+    position: absolute;
+    margin-top: 769px;
+    margin-left: 1480px;
+    font-size: 35px;
+    color: rgb(50,205,50);
+}
+
+#people {
+    position: absolute;
+    margin-top: 265px;
+    margin-left: 530px;
+    height: 350px;
+}
+
+#truck {
+    position: absolute;
+    margin-top: 1300px;
+    margin-left: 450px;
+    height: 500px;
+}
+
+#houseone {
+    position: absolute;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: -400px;
+}
+
+#housetwo {
+    position: absolute;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+#shapediv1 {
+    position: absolute;
+    height: 750px;
+    width: 750px;
+    -webkit-clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0);
+    background: rgb(54, 69, 79);
+    z-index: 1;
+}
+
+#shapeoneheading {
+    position: absolute;
+    color: rgb(50,205,50);
+    font-size: 35px;
+    margin-top: 355px;
+    margin-left: 50px;
+    z-index: 8;
+}
+
+#logopic {
+    position: absolute;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+#dessert1 {
+    position: absolute;
+    height: px;
+    width: 1660px;
+    margin-top: -300px;
+    margin-left: px;
+}
+
+#shapediv2 {
+    position: absolute;
+    height: 750px;
+    width: 750px;
+    margin-left: 910px;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 50%, 0 0);
+    clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 50%, 0 0);
+    background: rgb(54, 69, 79);
+    z-index: 1;
+}
+
+#shapetwoheading {
+    position: absolute;
+    color: rgb(50,205,50);
+    font-size: 35px;
+    margin-top: 355px;
+    margin-left: 390px;
+    z-index: 8;
+}
+
+#dessert2 {
+    position: absolute;
+    height: px;
+    width: 1660px;
+    margin-top: -300px;
+    margin-left: -910px;
+}
+
+#searchicon {
+    position: absolute;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 670px;
+}
+
+#shapediv3 {
+    position: absolute;
+    height: 828px;
+    width: 1660px;
+    margin-top: 490px;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: rgb(54, 69, 79);
+    z-index: 1;
+}
+
+#keyboard {
+    position: absolute;
+    height: 800px;
+    width: 1500px;
+    margin-left: 100px;
+    z-index: -1;
+}
+
+#formheader {
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 570px;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 7px;
+}
+
+#homeformbutton {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    margin-top: 360px;
+    margin-left: 715px;
+    border: 3px double white;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    z-index: 6;
+}
+
+#homeicon {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin-top: 21px;
+    margin-left: 33px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+#homecarformbutton {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    margin-top: 420px;
+    margin-left: 775px;
+    border: 3px double white;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    z-index: 6;
+}
+
+#housecaricon {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    margin-top: 25px;
+    margin-left: 25px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+#carhouseicon {
+    position: absolute;
+    height: 37px;
+    width: 37px;
+    margin-top: 25px;
+    margin-left: 45px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+#carformbutton {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    margin-top: 360px;
+    margin-left: 835px;
+    border: 3px double white;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    z-index: 6;
+}
+
+#caricon {
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    margin-top: 20px;
+    margin-left: 33px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(50, 205, 50);
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+#fromzip {
+    position: absolute;
+    height: 25px;
+    width: 220px;
+    margin-top: 420px;
+    margin-left: 445px;
+    border: 3px double white;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 5;
+}
+
+#tozip {
+    position: absolute;
+    height: 25px;
+    width: 220px;
+    margin-top: 420px;
+    margin-left: 980px;
+    border: 3px double white;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 5;
+}
+
+#cityone {
+    position: absolute;
+    height: 25px;
+    width: 220px;
+    margin-top: 490px;
+    margin-left: 375px;
+    border: 3px double white;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 5;
+}
+
+#citytwo {
+    position: absolute;
+    height: 25px;
+    width: 220px;
+    margin-top: 490px;
+    margin-left: 1050px;
+    border: 3px double white;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 5;
+}
+
+#firstname {
+    position: absolute;
+    height: 25px;
+    width: 220px;
+    margin-top: 560px;
+    margin-left: 305px;
+    border: 3px double white;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 5;
+}
+
+#lastname {
+    position: absolute;
+    height: 25px;
+    width: 220px;
+    margin-top: 560px;
+    margin-left: 1120px;
+    border: 3px double white;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 5;
+}
+
+#email {
+    position: absolute;
+    height: 25px;
+    width: 220px;
+    margin-top: 630px;
+    margin-left: 235px;
+    border: 3px double white;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 5;
+}
+
+#phone {
+    position: absolute;
+    height: 25px;
+    width: 220px;
+    margin-top: 630px;
+    margin-left: 1190px;
+    border: 3px double white;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 5;
+}
+
+#date {
+    position: absolute;
+    height: 25px;
+    width: 220px;
+    margin-top: 700px;
+    margin-left: 165px;
+    border: 3px double white;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 5;
+}
+
+#size {
+    position: absolute;
+    height: 25px;
+    width: 220px;
+    margin-top: 700px;
+    margin-left: 1260px;
+    border: 3px double white;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 5;
+}
+
+#message {
+    position: absolute;
+    height: 94px;
+    width: 515px;
+    margin-top: 560px;
+    margin-left: 570px;
+    border: 3px double white;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 5;
+}
+
+#submitbuttondiv {
+    position: absolute;
+    color: white;
+    height: 110px;
+    width: 110px;
+    margin-top: 1190px;
+    margin-left: 748px;
+    border: 3px double white;
+    border-radius: 3px;
+    background: rgba(60, 135, 65, 0.4);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    z-index: 6;
+}
+
+#submittext {
+    position: absolute;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-left: 30px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+#captcha {
+    position: absolute;
+    height: 60px;
+    margin-top: 670px;
+    margin-left: 720px;
+}
+
+#line1 {
+    position: absolute;
+    height: 1px;
+    width: 350px;
+    margin-top: 785px;
+    margin-left: 200px;
+    border: 1px double rgb(50,205,50);
+    z-index: 7;
+}
+
+#line2 {
+    position: absolute;
+    height: 1px;
+    width: 350px;
+    margin-top: 785px;
+    margin-left: 1100px;
+    border: 1px double rgb(50,205,50);
+    z-index: 7;
+}
+
+#line3 {
+    position: absolute;
+    height: 0px;
+    width: 600px;
+    margin-top: 1212px;
+    margin-left: 126px;
+    border: 1px solid rgb(50,205,50);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    z-index: 7;
+}
+
+#line4 {
+    position: absolute;
+    height: 0px;
+    width: 600px;
+    margin-top: 786px;
+    margin-left: 1100px;
+    border: 1px solid rgb(50, 205, 50);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    z-index: 7;
+}
+
+#line5 {
+    position: absolute;
+    height: 1px;
+    width: 401px;
+    margin-top: 391px;
+    margin-left: px;
+    border: 1px double white;
+    border-left: none;
+    border-right: none;
+    z-index: 7;
+}
+
+#line6 {
+    position: absolute;
+    height: 1px;
+    width: 401px;
+    margin-top: 391px;
+    margin-left: 1259px;
+    border: 1px double white;
+    border-left: none;
+    border-right: none;
+    z-index: 7;
+}
+
+#line7 {
+    position: absolute;
+    height: 1px;
+    width: 1660px;
+    margin-top: 2660px;
+    border: 1px double white;
+    border-left: none;
+    border-right: none;
+    z-index: 7;
+}
+
+#shapediv4 {
+    position: absolute;
+    height: 828px;
+    width: 830px;
+    margin-top: 1318px;
+    -webkit-clip-path: polygon(0 0, 0% 100%, 100% 0);
+    clip-path: polygon(0 0, 0% 100%, 100% 0);
+    background: rgb(54, 69, 79);
+    z-index: 1;
+}
+
+#shapediv5 {
+    position: absolute;
+    height: 828px;
+    width: 831px;
+    margin-top: 1318px;
+    margin-left: 830px;
+    -webkit-clip-path: polygon(100% 0, 0 0, 100% 100%);
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    background: rgb(54, 69, 79);
+    z-index: 1;
+}
+
+#shapediv6 {
+    position: absolute;
+    height: 828px;
+    width: 1660px;
+    margin-top: 1560px;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: rgb(54, 69, 79);
+    z-index: 1;
+}
+
+#shapediv7 {
+    position: absolute;
+    height: 700px;
+    width: 1660px;
+    margin-top: 2388px;
+    background: rgb(54, 69, 79);
+    overflow: hidden;
+}
+
+#nightcity {
+    position: absolute;
+    height: 800px;
+    width: 1660px;
+    margin-top: -200px;
+}
+
+#endinglogo {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 705px;
+}
+
+#fbicon {
+    position: absolute;
+    height: 78px;
+    margin-top: 360px;
+    margin-left: 620px;
+    z-index: 20;
+}
+
+#twittericon {
+    position: absolute;
+    height: 58px;
+    margin-top: 375px;
+    margin-left: 757px;
+    z-index: 20;
+}
+
+#yelpicon {
+    position: absolute;
+    height: 60px;
+    margin-top: 372px;
+    margin-left: 848px;
+    z-index: 20;
+}
+
+#googleicon {
+    position: absolute;
+    height: 57px;
+    margin-top: 372px;
+    margin-left: 940px;
+    z-index: 20;
+}
+
+#endingtext1 {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    margin-top: 500px;
+    margin-left: 320px;
+}
+
+#endingtext2 {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    margin-top: 500px;
+    margin-left: 420px;
+}
+
+#endingtext3 {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    margin-top: 500px;
+    margin-left: 580px;
+}
+
+#endingtext4 {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    margin-top: 500px;
+    margin-left: 755px;
+}
+
+#endingtext5 {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    margin-top: 500px;
+    margin-left: 860px;
+}
+
+#endingtext6 {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    margin-top: 500px;
+    margin-left: 990px;
+}
+
+#endingtext7 {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    margin-top: 500px;
+    margin-left: 1070px;
+}
+
+#endingtext8 {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    margin-top: 500px;
+    margin-left: 1150px;
+}
+
+#whitesquare {
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    margin-top: -215px;
+    margin-left: 400px;
+    border: 4px double white;
+    z-index: 4;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+/* ------------------------------ MENU -------------------------------- */
+
+.menubuttondivs {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    z-index: 2;
+}
+
+#aboutusbuttondiv {
+    margin-top: 0px;
+    margin-left: 705px;
+    background: rgba(60, 135, 65, 0.4);
+}
+
+#servicesbuttondiv {
+    margin-top: 135px;
+    margin-left: 570px;
+    background: rgba(60, 135, 65, 0.4);
+}
+
+#estimatesbuttondiv {
+    margin-top: 135px;
+    margin-left: 840px;
+    background: rgba(60, 135, 65, 0.4);
+}
+
+#trackshipmentbuttondiv {
+    margin-top: 270px;
+    margin-left: 435px;
+    background: rgba(60, 135, 65, 0.4);
+}
+
+#citiesbuttondiv {
+    margin-top: 270px;
+    margin-left: 975px;
+    background: rgba(60, 135, 65, 0.4);
+}
+
+#blogbuttondiv {
+    margin-top: 405px;
+    margin-left: 570px;
+    background: rgba(60, 135, 65, 0.4);
+}
+
+#reviewsbuttondiv {
+    margin-top: 405px;
+    margin-left: 840px;
+    background: rgba(60, 135, 65, 0.4);
+}
+
+#contactusbuttondiv {
+    margin-top: 540px;
+    margin-left: 705px;
+    background: rgba(60, 135, 65, 0.4);
+}
+
+#aboutusheading {
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 115px;
+    margin-left: 80px;
+}
+
+#servicesheading {
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 115px;
+    margin-left: 50px;
+}
+
+#estimatesheading {
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 115px;
+    margin-left: 70px;
+}
+
+#trackshipmentheading {
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 115px;
+    margin-left: 50px;
+}
+
+#citiesheading {
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 115px;
+    margin-left: 73px;
+}
+
+#blogheading {
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 115px;
+    margin-left: 80px;
+}
+
+#reviewsheading {
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 115px;
+    margin-left: 68px;
+}
+
+#contactusheading {
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 115px;
+    margin-left: 67px;
+}
+
+/* ------------------------------ SERVICES -------------------------------- */
+
+#diamond1 {
+    position: absolute;
+    height: 320px;
+    width: 400px;
+    margin-top: 1630px;
+    margin-left: 630px;
+    background: rgba(60, 135, 65, 0.4);
+    -webkit-clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    z-index: 9;
+}
+
+#diamond2 {
+    position: absolute;
+    height: 320px;
+    width: 400px;
+    margin-top: 1800px;
+    margin-left: 320px;
+    background: rgba(60, 135, 65, 0.4);
+    -webkit-clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    z-index: 9;
+}
+
+#diamond3 {
+    position: absolute;
+    height: 320px;
+    width: 400px;
+    margin-top: 1800px;
+    margin-left: 940px;
+    background: rgba(60, 135, 65, 0.4);
+    -webkit-clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    z-index: 9;
+}
+
+#diamond4 {
+    position: absolute;
+    height: 320px;
+    width: 400px;
+    margin-top: 1970px;
+    margin-left: 10px;
+    background: rgba(60, 135, 65, 0.4);
+    -webkit-clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    z-index: 9;
+}
+
+#diamond5 {
+    position: absolute;
+    height: 320px;
+    width: 400px;
+    margin-top: 1970px;
+    margin-left: 1250px;
+    background: rgba(60, 135, 65, 0.4);
+    -webkit-clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    z-index: 9;
+}
+
+#diamond6 {
+    position: absolute;
+    height: 320px;
+    width: 400px;
+    margin-top: 2140px;
+    margin-left: 320px;
+    background: rgba(60, 135, 65, 0.4);
+    -webkit-clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    z-index: 9;
+}
+
+#diamond7 {
+    position: absolute;
+    height: 320px;
+    width: 400px;
+    margin-top: 2140px;
+    margin-left: 940px;
+    background: rgba(60, 135, 65, 0.4);
+    -webkit-clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    z-index: 9;
+}
+
+#diamond8 {
+    position: absolute;
+    height: 320px;
+    width: 400px;
+    margin-top: 2310px;
+    margin-left: 630px;
+    background: rgba(60, 135, 65, 0.4);
+    -webkit-clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    z-index: 9;
+}
+
+#housemovingheading {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 102px;
+}
+
+#autoshippingheading {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 105px;
+}
+
+#packingheading {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 145px;
+}
+
+#storageheading {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+#choosing1 {
+    position: absolute;
+    height: 220px;
+    margin-top: px;
+    margin-left: 90px;
+}
+
+#choosing2 {
+    position: absolute;
+    height: 220px;
+    margin-top: 10px;
+    margin-left: 85px;
+}
+
+#choosing3 {
+    position: absolute;
+    height: 220px;
+    margin-top: px;
+    margin-left: 100px;
+}
+
+#choosing4 {
+    position: absolute;
+    height: 220px;
+    margin-top: px;
+    margin-left: 85px;
+}
+
+#housemovingpic {
+    position: absolute;
+    height: 320px;
+    margin-left: -50px;
+}
+
+#autoshippingpic {
+    position: absolute;
+    height: 320px;
+    margin-left: -60px;
+}
+
+#packingpic {
+    position: absolute;
+    height: 380px;
+    margin-top: -60px;
+    margin-left: -40px;
+}
+
+#storagepic {
+    position: absolute;
+    height: 320px;
+    margin-left: -30px;
+}
+
+#whyheading1n1 {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin-top: 220px;
+    margin-left: 100px;
+}
+
+#whyheading1n2 {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin-top: 250px;
+    margin-left: 120px;
+}
+
+#whyheading2 {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin-top: 230px;
+    margin-left: 95px;
+}
+
+#whyheading3n1 {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin-top: 200px;
+    margin-left: 140px;
+}
+
+#whyheading3n2 {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin-top: 230px;
+    margin-left: 63px;
+}
+
+#whyheading4n1 {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin-top: 200px;
+    margin-left:120px;
+}
+
+#whyheading4n2 {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin-top: 230px;
+    margin-left: 90px;
+}
+
+#hex1 {
+    position: absolute;
+    height: 160px;
+    width: 400px;
+    margin-top: 1960px;
+    margin-left: 320px;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-clip-path: polygon(0 0, 100% 0, 75% 100%, 25% 100%);
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 25% 100%);
+    z-index: 15;
+}
+
+#hex2 {
+    position: absolute;
+    height: 160px;
+    width: 400px;
+    margin-top: 1960px;
+    margin-left: 940px;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-clip-path: polygon(0 0, 100% 0, 75% 100%, 25% 100%);
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 25% 100%);
+    z-index: 15;
+}
+
+#hex3 {
+    position: absolute;
+    height: 160px;
+    width: 400px;
+    margin-top: 2300px;
+    margin-left: 320px;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-clip-path: polygon(0 0, 100% 0, 75% 100%, 25% 100%);
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 25% 100%);
+    z-index: 15;
+}
+
+#hex4 {
+    position: absolute;
+    height: 160px;
+    width: 400px;
+    margin-top: 2300px;
+    margin-left: 940px;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-clip-path: polygon(0 0, 100% 0, 75% 100%, 25% 100%);
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 25% 100%);
+    z-index: 15;
+}
+
+#par1 {
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px
+}
+
+#par2 {
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px
+}
+
+#par3 {
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px
+}
+
+#par4 {
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px
+}
+
+.readmores {
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    margin-top: 130px;
+    margin-left: 150px;
+}
+
+#diamondheading1 {
+    position: absolute;
+    color: white;
+    font-size: 37px;
+    margin-top: 2020px;
+    margin-left: 690px;
+    z-index: 15;
+}
+
+#diamondheading2 {
+    position: absolute;
+    color: white;
+    font-size: 37px;
+    margin-top: 2085px;
+    margin-left: 740px;
+    z-index: 15;
+}
+
+#diamondheading3 {
+    position: absolute;
+    color: white;
+    font-size: 37px;
+    margin-top: 2150px;
+    margin-left: 700px;
+    z-index: 15;
+}
+
+#diamondheading4 {
+    position: absolute;
+    color: white;
+    font-size: 37px;
+    margin-top: 2210px;
+    margin-left: 720px;
+    z-index: 15;
+}
+
+/* ------------------------------ THE END -------------------------------- */
